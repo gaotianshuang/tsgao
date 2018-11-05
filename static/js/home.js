@@ -63,14 +63,14 @@ var iUp = (function() {
     $(".btn-mobile-menu__icon").on("click", function(){
       ySlide();
     });
-    $(".index-button").on("click", function(){
-      if(window.location.host == "resume.mflywork.cn"){
-        xSlideOut();
-        setTimeout(function(){
-          //window.location.href = "http://resume.mflywork.cn/";
-        }, 600)
-      }
-    });
+    // $(".index-button").on("click", function(){
+    //   if(window.location.host == "resume.mflywork.cn"){
+    //     xSlideOut();
+    //     setTimeout(function(){
+    //       //window.location.href = "http://resume.mflywork.cn/";
+    //     }, 600)
+    //   }
+    // });
   });
   $(document.links).filter(function() {
       return (this.hostname != window.location.hostname) && (this.target != '_self');
